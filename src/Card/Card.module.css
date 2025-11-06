@@ -1,0 +1,95 @@
+.card {
+  background: #1c1d1f;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 220px;
+  text-align: left;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.coffeeImage {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+
+.tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #f5c767;
+  color: #111315;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 0.75rem;
+}
+
+.details {
+  padding: 10px 8px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.price {
+  background-color: #bde3cc;
+  color: #111;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.ratingRow {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.star {
+  width: 16px;
+  height: 16px;
+  filter: brightness(1.1);
+}
+
+.rating {
+  font-size: 0.9rem;
+}
+
+.votes {
+  font-size: 0.9rem;
+  color: #686d73;
+  font-weight: bold;
+}
+
+.noRating {
+  font-size: 0.85rem;
+  color: #ccc;
+}
+
+.soldOut {
+  font-size: 0.9rem;
+  color: #d36a55;
+  font-weight: 600;
+  margin-left: auto;
+}
