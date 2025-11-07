@@ -3,7 +3,6 @@ import Card from "../Card/Card";
 import styles from "./Body.module.css";
 import heroBg from "../assets/bg-cafe.jpg";
 import decorIcon from "../assets/decor.png";
-// import coffeeData from "../API/Coffeedata.json";
 
 function Body() {
   const [coffees, setCoffees] = useState([]);
@@ -14,7 +13,6 @@ function Body() {
       .then((r) => r.json())
       .then((data) => setCoffees(data))
       .catch((err) =>  console.error(err));
-    // setCoffees(coffeeData);
         
   }, []);
 
