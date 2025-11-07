@@ -84,7 +84,8 @@
 
 .noRating {
   font-size: 0.85rem;
-  color: #ccc;
+  color: #686d73;
+  font-weight: bold;
 }
 
 .soldOut {

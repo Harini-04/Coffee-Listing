@@ -2,8 +2,8 @@ import React from "react";
 import styles from "./Card.module.css";
 
 function Card({ coffee }) {
-  const filledStar = "https://cdn-icons-png.flaticon.com/512/1828/1828884.png"; // yellow filled star
-  const emptyStar = "https://cdn-icons-png.flaticon.com/512/2107/2107957.png"; // white outline star
+  const filledStar = "https://cdn-icons-png.flaticon.com/512/1828/1828884.png"; 
+  const emptyStar = "https://cdn-icons-png.flaticon.com/512/1828/1828970.png"; 
 
   const hasRating = coffee.rating && coffee.votes > 0;
 
