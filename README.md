@@ -42,5 +42,5 @@ Harini Kurella
 
 You can reach out to me, here!
 
-🔗 [LinkedIn](./public/Linkedin)
+🔗 [LinkedIn](https://www.linkedin.com/in/harini-kurella-039201245/)
 🔗 [GitHub](https://github.com/Harini-04)
