@@ -9,17 +9,15 @@ function Body() {
   const [filter, setFilter] = useState("all");
   
   useEffect(() => {
-    fetch("https://raw.githubusercontent.com/devchallenges-io/curriculum/refs/heads/main/4-frontend-libaries/challenges/group_1/data/simple-coffee-listing-data.json") 
-      .then((r) => r.json())
-      .then((data) => setCoffees(data))
-      .catch((err) =>  console.error(err));
-        
+    fetch("https://raw.githubusercontent.com/devchallenges-io/curriculum/refs/heads/main/4-frontend-libaries/challenges/group_1/data/simple-coffee-listing-data.json")
+    .then((res)=>res.json())
+    .then((data)=>setCoffees(data))
+    .catch((err)=>console.error(err));
   }, []);
 
 
   const filtered=filter==="available" ? coffees.filter((coffee)=>coffee.available):coffees;
 
-  
   return (
     <div className={styles.container}>
       <div className={styles.heroSection}>
