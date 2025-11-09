@@ -34,13 +34,16 @@ This project showcases a curated list of coffee products, allows users to filter
 ## 🚀 Future Improvements
 
 🗃️ Add a Django backend for managing coffee data.
+
 🛒 Implement cart and payment integration (Stripe).
+
 🔐 Add user authentication for admin access.
+
 🌙 Introduce dark mode toggle.
 
-Harini Kurella
 
-You can reach out to me, here!
+## You can reach out to me, here!
 
 🔗 [LinkedIn](https://www.linkedin.com/in/harini-kurella-039201245/)
+
 🔗 [GitHub](https://github.com/Harini-04)
