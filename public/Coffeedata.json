@@ -1,0 +1,22 @@
+[
+    {
+        "id":7,
+        "name":"Black Coffee",
+        "image":"./Black Coffee.png",
+        "price":"$5.50",
+        "rating":4.9,
+        "votes":70,
+        "popular":true,
+        "available":true
+    },
+    {
+        "id":8,
+        "name":"White Coffee",
+        "image":"./White Coffee.png",
+        "price":"$6.00",
+        "rating":4.7,
+        "votes":55,
+        "popular":true,
+        "available":false
+    }
+]
