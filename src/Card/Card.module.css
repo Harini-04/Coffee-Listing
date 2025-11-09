@@ -1,7 +1,7 @@
 .card {
   background: #1c1d1f;
   border-radius: 10px;
-  overflow: hidden;
+  overflow: visible;
   width: 220px;
   text-align: left;
   color: white;
@@ -14,12 +14,15 @@
 
 .imageContainer {
   position: relative;
+  overflow: visible;
+  height: auto;
 }
 
 .coffeeImage {
   width: 100%;
   border-radius: 10px;
   display: block;
+  object-fit: cover;
 }
 
 .tag {
