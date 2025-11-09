@@ -41,8 +41,9 @@ This project showcases a curated list of coffee products, allows users to filter
 
 🌙 Introduce dark mode toggle.
 
+## 📫 Contact
 
-## You can reach out to me, here!
+ You can reach out to me, here!
 
 🔗 [LinkedIn](https://www.linkedin.com/in/harini-kurella-039201245/)
 
